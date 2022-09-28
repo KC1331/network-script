@@ -139,6 +139,9 @@ then
 elif [ $value1 == 2 ]
 then
 	activate_a_connection
+elif [ $value1 == 4 ]
+then
+	list_connections
 elif [ $value1 == 'q' ]
 then
 	quit
